@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context.xsd
+	   		http://www.springframework.org/schema/tx 
+			http://www.springframework.org/schema/tx/spring-tx.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+		
+	<bean id="thanhPhoDao" class="ptithcm.dao.ThanhPhoDaoImpl" />
+	<bean id="thanhPhoService" class="ptithcm.service.ThanhPhoServiceImpl" />
+	
+	<bean id="quanHuyenDao" class="ptithcm.dao.QuanHuyenDaoImpl" />
+	<bean id="quanHuyenService" class="ptithcm.service.QuanHuyenServiceImpl" />
+	
+	<bean id="duongPhoDao" class="ptithcm.dao.DuongPhoDaoImpl" />
+	<bean id="duongPhoService" class="ptithcm.service.DuongPhoServiceImpl" />
+	
+	<bean id="phongTroDao" class="ptithcm.dao.PhongTroDaoImpl" />
+	<bean id="phongTroService" class="ptithcm.service.PhongTroServiceImpl" />
+	
+	<bean id="userDao" class="ptithcm.dao.UserDaoImpl" />
+	<bean id="userService" class="ptithcm.service.UserServiceImpl" />
+	<bean id="userInfo" class="ptithcm.entity.TaiKhoan"/>
+	
+	<bean id="ctHinhAnhDao" class="ptithcm.dao.UserDaoImpl" />
+	<bean id="ctHinhAnhService" class="ptithcm.service.UserServiceImpl" />
+</beans>

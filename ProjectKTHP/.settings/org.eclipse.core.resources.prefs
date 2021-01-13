@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/managers/doi-mat-khau.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/managers/quan-ly-tin.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/managers/quen-mk.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/managers/sua-tin.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/managers/tai-khoan.jsp=UTF-8
+encoding//src/ptithcm/bean/AccountInfo.java=UTF-8
+encoding//src/ptithcm/controller/AccountController.java=UTF-8
+encoding//src/ptithcm/controller/HomeController.java=UTF-8
+encoding//src/ptithcm/controller/MailController.java=UTF-8
+encoding//src/ptithcm/controller/PostDetailController.java=UTF-8
+encoding//src/ptithcm/controller/SearchingController.java=UTF-8
+encoding//src/ptithcm/entity/PhongTro.java=UTF-8
+encoding//src/ptithcm/entity/TaiKhoan.java=UTF-8
+encoding//src/ptithcm/service/PhongTroService.java=UTF-8
